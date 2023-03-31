@@ -6,7 +6,7 @@ int main(void) {
 	char name[15]; //이름 변수 생성
 	int num1, num2; //생년월일, 학번 변수 생성
 	char major[33]; //학과 변수 생성
-	printf("이름 : "); 
+	printf("이름 : ");  
 	scanf_s("%s", name, sizeof(name)); //이름 입력
 	printf("생년월일 : ");
 	scanf_s("%d", &num1); //생년월일 입력
